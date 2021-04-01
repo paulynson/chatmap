@@ -1,0 +1,107 @@
+*{
+			margin: 0;
+			padding: 0;
+}
+
+html{
+		box-sizing: border-box;
+}
+
+body{
+width: 100vw !important;
+max-width: 768px;
+color: green;
+height: 100vh !important;
+}
+
+.navbg{
+background-color:#03264c;
+
+}
+
+.fa{
+font-size: 22px !important;
+}
+
+.fa-user-circle{
+			font-size: 45px !important;
+			color: #1167b1;
+}
+
+.pop-item{
+position: absolute;
+			z-index: 111;
+			right: 2%;
+			top: 80% !important;
+}
+
+.pop-item{
+	background-color: #d0efff !important;
+}
+
+.pop-item a{
+	text-decoration: none;
+	color: #1167b1 ;
+}
+
+.massage-body{
+	margin-top: 50%;
+	font-size: 20px;
+	color: black;
+}
+
+.pop{
+	display: none;	
+}
+
+.pop.active{
+			display: block;
+}
+
+.logo span{
+			font-size: 16px !important;
+			margin-left: 10px !important;
+			color: white;
+}
+
+.item{
+display: flex;
+justify-content: space-between !important;
+}
+
+.fa-ellipsis-v{
+			margin: 0 10px !important;
+			color: white;
+			border-radius: 10px;
+}
+
+.fa-ellipsis-v:hover{
+	margin: 0 10px !important;
+}
+
+.fa-send{
+			background-color: #2a9df4;
+			color: white;
+			border-radius: 50px;
+			padding: 10px;
+}
+
+.fa-share-alt{
+			background-color: #2a9df4;
+			color: white;
+			border-radius: 100px;
+			padding: 10px;
+}
+
+a{
+			margin-left: 10px;
+}
+
+input[type=text]{
+border: 0;
+outline: none;
+}
+
+form{
+	border-radius: 100px !important;
+}
