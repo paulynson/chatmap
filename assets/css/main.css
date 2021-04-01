@@ -119,3 +119,8 @@ background-color: transparent !important;
 form{
 	border-radius: 100px !important;
 }
+
+button{
+	border: 0 !important;
+	outline: none !important;
+}
