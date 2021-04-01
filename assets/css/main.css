@@ -33,15 +33,21 @@ position: absolute;
 			z-index: 111;
 			right: 2%;
 			top: 80% !important;
+			transition: .3s ease-in-out;
+			transition-delay: .4s;
 }
 
 .pop-item{
 	background-color: #d0efff !important;
+	transition: .3s ease-in-out;
+	transition-delay: .4s;
 }
 
 .pop-item a{
 	text-decoration: none;
 	color: #1167b1 ;
+	transition: .3s ease-in-out;
+	transition-delay: .4s;
 }
 
 .massage-body{
@@ -52,10 +58,14 @@ position: absolute;
 
 .pop{
 	display: none;	
+	transition: .3s ease-in-out;
+	transition-delay: .4s;
 }
 
 .pop.active{
 			display: block;
+			transition: .3s ease-in-out;
+			transition-delay: .4s;
 }
 
 .logo span{
@@ -73,10 +83,13 @@ justify-content: space-between !important;
 			margin: 0 10px !important;
 			color: white;
 			border-radius: 10px;
+			font-size: 24px !important;
 }
 
 .fa-ellipsis-v:hover{
 	margin: 0 10px !important;
+	color: yellow;
+	font-size: 26px !important;
 }
 
 .fa-send{
