@@ -27,8 +27,7 @@ send.addEventListener("click", ()=>{
 
 
 $(document).ready(function($) {
-	$(document).on('button', '#submit-form', function(event) {
+	$(document).on('submit', '#submit-form', function(event) {
 	  event.preventDefault();
-
 	});
   });
