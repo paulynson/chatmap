@@ -23,3 +23,12 @@ send.addEventListener("click", ()=>{
 	const msgContent = input.value;
 	document.querySelector(".message").textContent = msgContent;
 })
+
+
+
+$(document).ready(function($) {
+	$(document).on('button', '#submit-form', function(event) {
+	  event.preventDefault();
+
+	});
+  });
