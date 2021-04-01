@@ -21,5 +21,5 @@ bar.addEventListener("click", ()=>{
 send.addEventListener("click", ()=>{
 	
 	const msgContent = input.value;
-	const msg = document.querySelector(".message").textContent = msgContent;
+	document.querySelector(".message").textContent = msgContent;
 })
