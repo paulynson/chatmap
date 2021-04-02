@@ -18,16 +18,13 @@ bar.addEventListener("click", ()=>{
 
 // Send Section
 
-send.addEventListener("click", ()=>{
+send.addEventListener("click", (event)=>{
 	
 	const msgContent = input.value;
 	document.querySelector(".message").textContent = msgContent;
+	event.preventDefault();
+	input.value = "";
 })
 
 
-
-$(document).ready(function($) {
-	$(document).on('submit', '#submit-form', function(event) {
-	  event.preventDefault();
-	});
-  });
+	  

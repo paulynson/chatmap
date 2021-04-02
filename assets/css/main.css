@@ -1,15 +1,19 @@
 *{
 			margin: 0;
 			padding: 0;
+			box-sizing: border-box;
 }
 
 html{
-		box-sizing: border-box;
+
+width: 100vw !important;
+max-width: 768px;
+clear: both;
+margin: 0 auto;
 }
 
 body{
-width: 100vw !important;
-max-width: 768px;
+
 color: green;
 height: 100vh !important;
 }
@@ -123,4 +127,17 @@ form{
 button{
 	border: 0 !important;
 	outline: none !important;
+}
+
+.footer{
+	bottom: 5%;
+	position: absolute;
+	
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	box-sizing: border-box;
+max-width: 768px;
+clear: both;
+margin: 0 auto;
 }
