@@ -19,6 +19,7 @@ bar.addEventListener("click", ()=>{
 // Send Section
 
 send.addEventListener("click", (event)=>{
+<<<<<<< HEAD
 	
 	const msgContent = input.value;
 	document.querySelector(".message").textContent = msgContent;
@@ -28,3 +29,14 @@ send.addEventListener("click", (event)=>{
 
 
 	  
+=======
+	
+	
+	const msgContent = input.value;
+	document.querySelector(".message").textContent = msgContent; event.preventDefault(); input.value = "";
+	
+})
+
+
+
+>>>>>>> 834010a393461b6ffad84ccf4f54979e0206d35a
