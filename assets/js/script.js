@@ -19,12 +19,20 @@ bar.addEventListener("click", ()=>{
 // Send Section
 
 send.addEventListener("click", (event)=>{
-
-	
 	const msgContent = input.value;
 	document.querySelector(".message").textContent = msgContent;
 	event.preventDefault();
 	input.value = "";
+})
+
+const msg = document.querySelector(".message")
+
+send.addEventListener("click", ()=>{
+	if (msg.classList.contains("active")){
+		msg.classList.remove("active")
+	} else{
+		msg.classList.add("active")
+	}
 })
 
 

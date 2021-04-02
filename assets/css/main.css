@@ -36,7 +36,7 @@ font-size: 22px !important;
 position: absolute;
 			z-index: 111;
 			right: 2%;
-			top: 80% !important;
+			top: 12% !important;
 			transition: .3s ease-in-out;
 			transition-delay: .4s;
 }
@@ -130,7 +130,7 @@ button{
 }
 
 .footer{
-	bottom: 5%;
+	bottom: 2%;
 	position: absolute;
 	display: flex;
 	justify-content: center;
@@ -139,4 +139,28 @@ button{
 max-width: 768px;
 clear: both;
 margin: 0 auto;
+}
+
+.massage-body{
+	
+
+}
+
+.message{
+	float: right;
+	display: none;
+	margin-top: 20px;
+	background-color: #2a9df4;
+	padding: 4px 10px;
+	margin-right: 5px;
+	border-radius: 10px;
+	font-size: 13px;
+	color: #ffffff;
+	word-spacing: 2.2px;
+	line-height: 1.4;
+	max-width: 300px;
+}
+
+.message.active{
+	display: block;
 }
