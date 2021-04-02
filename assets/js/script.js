@@ -22,7 +22,7 @@ send.addEventListener("click", (event)=>{
 	
 	
 	const msgContent = input.value;
-	document.querySelector(".message").textContent = msgContent; event.preventDefault();
+	document.querySelector(".message").textContent = msgContent; event.preventDefault(); input.value = "";
 	
 })
 
