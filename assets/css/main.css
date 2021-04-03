@@ -159,9 +159,9 @@ margin: 0 auto;
 	color: #ffffff;
 	word-spacing: 2.2px;
 	line-height: 1.4;
-	width: 300px;
+	max-width: 300px;
 	overflow-y: scroll;
-	height: 400px;
+	max-height: 400px;
 }
 
 .message.active{
