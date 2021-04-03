@@ -2,14 +2,14 @@ const bar = document.querySelector(".fa-ellipsis-v");
 const popUp = document.querySelector(".pop");
 
 const send = document.querySelector(".fa-send");
-// const msg = document.querySelector(".message").textContent;
+
 const input = document.querySelector(".input-msg");
 
 bar.addEventListener("click", ()=>{
 		if (popUp.classList.contains("active")) {
-					popUp.classList.remove("active");			
-								
-		}else{
+			popUp.classList.remove("active");			
+			}
+			else{
 			popUp.classList.add("active");				
 		}
 			
@@ -19,30 +19,17 @@ bar.addEventListener("click", ()=>{
 // Send Section
 
 send.addEventListener("click", (event)=>{
-	const msgContent = input.value;
-	document.querySelector(".message").textContent = msgContent;
-	event.preventDefault();
+	const msg = document.querySelector(".message");
+	msg.textContent = input.value;
 	input.value = "";
+		const li = document.createElement("LI");
+		li.innerHTML = mms;
+		const nod = document.createTextNode(input);
+		msg.appendChild(li);
+	
+	event.preventDefault();
+	
 })
-
-const msg = document.querySelector(".message")
-
-send.addEventListener("click", ()=>{
-	if (msg.classList.contains("active")){
-		msg.classList.remove("active")
-	} 
-	else{
-		msg.classList.add("active")
-	}
-
-	if (input.value == " "){
-	document.querySelector(".message").textContent = "";
-
-
-	}
-
-})
-
 
 
 

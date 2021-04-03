@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
 *{
 			margin: 0;
 			padding: 0;
@@ -10,6 +13,7 @@ width: 100vw !important;
 max-width: 768px;
 clear: both;
 margin: 0 auto;
+font-family: 'Poppins', sans-serif !important;
 }
 
 body{
@@ -142,12 +146,12 @@ clear: both;
 margin: 0 auto;
 }
 
-.massage-body{
+/* .massage-body{
 	
 
-}
+} */
 
-.message{
+.message li{
 	float: right;
 	display: none;
 	margin-top: 20px;
