@@ -130,8 +130,9 @@ button{
 }
 
 .footer{
-	bottom: 2%;
-	position: absolute;
+	bottom: 0%;
+	position: fixed;
+	z-index: 111;
 	display: flex;
 	justify-content: center;
 	width: 100vw;
@@ -158,9 +159,21 @@ margin: 0 auto;
 	color: #ffffff;
 	word-spacing: 2.2px;
 	line-height: 1.4;
-	max-width: 300px;
+	width: 300px;
+	overflow-y: scroll;
+	height: 400px;
 }
 
 .message.active{
 	display: block;
 }
+
+
+
+
+
+
+
+
+
+

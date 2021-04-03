@@ -30,9 +30,17 @@ const msg = document.querySelector(".message")
 send.addEventListener("click", ()=>{
 	if (msg.classList.contains("active")){
 		msg.classList.remove("active")
-	} else{
+	} 
+	else{
 		msg.classList.add("active")
 	}
+
+	if (input.value == " "){
+	document.querySelector(".message").textContent = "";
+
+
+	}
+
 })
 
 
