@@ -154,9 +154,9 @@ li{
 	overflow-y: scroll;
 	scroll-behavior: smooth;
 	scroll-snap-type: mandatory;
-	max-height: 400px;
+	max-height: 400px !important;
 	line-height: 1.4;
-	max-width: 250px;
+	max-width: 250px !important;
 	margin-right: 5px;
 	padding: 4px 10px;
 	color: white;
