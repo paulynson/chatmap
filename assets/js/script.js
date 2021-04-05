@@ -1,9 +1,21 @@
 const bar = document.querySelector(".fa-ellipsis-v");
 const popUp = document.querySelector(".pop");
-
 const send = document.querySelector(".fa-send");
 
-const input = document.querySelector(".input-msg");
+// Send Button
+
+send.addEventListener("click", (event)=>{
+	const input = document.querySelector("#input").value;
+	const li = document.createElement("LI");
+	document.querySelector(".todos").appendChild(li).innerHTML = input;
+	document.querySelector("#input").value = "";
+	event.preventDefault();
+	
+});
+
+
+
+// Popup
 
 bar.addEventListener("click", ()=>{
 		if (popUp.classList.contains("active")) {
@@ -15,21 +27,6 @@ bar.addEventListener("click", ()=>{
 			
 })
 
-
-// Send Section
-
-send.addEventListener("click", (event)=>{
-	const msg = document.querySelector(".message");
-	msg.textContent = input.value;
-	input.value = "";
-		const li = document.createElement("LI");
-		li.innerHTML = mms;
-		const nod = document.createTextNode(input);
-		msg.appendChild(li);
-	
-	event.preventDefault();
-	
-})
 
 
 

@@ -58,10 +58,10 @@ position: absolute;
 	transition-delay: .4s;
 }
 
-.massage-body{
-	margin-top: 50%;
-	font-size: 20px;
+.massage-body, .todos{
+	float: right !important;
 	color: black;
+
 }
 
 .pop{
@@ -146,30 +146,26 @@ clear: both;
 margin: 0 auto;
 }
 
-/* .massage-body{
-	
-
-} */
-
-.message li{
-	float: right;
-	display: none;
-	margin-top: 20px;
-	background-color: #2a9df4;
-	padding: 4px 10px;
-	margin-right: 5px;
-	border-radius: 10px;
-	font-size: 13px;
-	color: #ffffff;
-	word-spacing: 2.2px;
-	line-height: 1.4;
-	max-width: 300px;
+li{
+	list-style: none;
+	background-color: #1167b1;
+	margin: 10px 0;
+	font-size: 12px !important;
 	overflow-y: scroll;
+	scroll-behavior: smooth;
+	scroll-snap-type: mandatory;
 	max-height: 400px;
+	line-height: 1.4;
+	max-width: 250px;
+	margin-right: 5px;
+	padding: 4px 10px;
+	color: white;
+	font-size: 13px;
+	
 }
 
-.message.active{
-	display: block;
+li:last-child{
+	margin-bottom:80px !important;
 }
 
 
